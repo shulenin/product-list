@@ -15,7 +15,6 @@ $products = $cProducts->getProducts($connect, $count);
 foreach ($products as $product) {
     echo "<tr>
         <th scope=\"row\">{$product['id']}</th>
-        <td>{$product['product_id']}</td>
         <td>{$product['product_name']}</td>
         <td>{$product['product_price']}</td>
         <td>{$product['product_article']}</td>

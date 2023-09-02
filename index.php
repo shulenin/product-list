@@ -11,9 +11,9 @@
 
     <div class="container">
 
-        <h1 class="text-center p-5">Актуальные товары</h1>
+        <h1 class="text-center p-5">Current products</h1>
 
-        <h3 class="m-2">Количество:</h3>
+        <h3 class="m-2">Quantity:</h3>
 
         <div class="btn-group p-2" role="group" aria-label="Basic example">
             <button type="button" class="btn btn-secondary m-2" id="minus-count"> - </button>
@@ -25,12 +25,11 @@
             <thead>
                 <tr>
                     <th scope="col">ID</th>
-                    <th scope="col">PRODUCT_ID</th>
-                    <th scope="col">PRODUCT_NAME</th>
-                    <th scope="col">PRODUCT_PRICE</th>
-                    <th scope="col">PRODUCT_ARTICLE</th>
-                    <th scope="col">PRODUCT_QUANTITY</th>
-                <th scope="col">DATE_CREATE</th>
+                    <th scope="col">Name</th>
+                    <th scope="col">Price</th>
+                    <th scope="col">Article</th>
+                    <th scope="col">Quantity</th>
+                <th scope="col">Create date</th>
             </tr>
             </thead>
             <tbody id="body">
